@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0f1220;
+  --color-surface: #181c30;
+  --color-surface-2: #20253d;
+  --color-border: #2e3556;
+  --color-foreground: #e8eaf6;
+  --color-muted: #9aa1c4;
+  --color-primary: #f5b83d;
+  --color-primary-fg: #1a1405;
+  --color-danger: #ff6b6b;
+  --color-success: #4ade80;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+input[type="range"] { accent-color: var(--color-primary); }
